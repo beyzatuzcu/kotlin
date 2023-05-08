@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button_arac"
+        android:layout_width="388dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#51ADD6"
+
+        android:text="Araç" />
+
+    <Button
+        android:id="@+id/button_konut"
+        android:layout_width="383dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#51ADD6"
+
+        android:text="Konut" />
+
+    <Button
+        android:id="@+id/button_hayat_kaza"
+        android:layout_width="377dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#51ADD6"
+
+        android:text="Hayat ve Ferdi Kaza" />
+
+    <Button
+        android:id="@+id/button_isyeri"
+        android:layout_width="377dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#51ADD6"
+
+        android:text="İşyeri" />
+
+    <Button
+        android:id="@+id/button_muhendislik"
+        android:layout_width="376dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#51ADD6"
+
+        android:text="Mühendislik" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="37dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        android:text="Tüm Ürünler"
+        android:textAlignment="center"
+        android:textColor="#073355"
+        android:textSize="24sp" />
+
+</LinearLayout>

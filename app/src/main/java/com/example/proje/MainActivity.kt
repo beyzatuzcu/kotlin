@@ -1,10 +1,9 @@
 package com.example.proje
 
+import AracActivity
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
-import android.widget.EditText
-import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.fillMaxSize
@@ -30,23 +29,35 @@ class MainActivity : ComponentActivity() {
             }
         }
 
-        val button: Button = findViewById(R.id.button)
-        val editText: EditText = findViewById(R.id.editText)
-        val editText2: EditText = findViewById(R.id.editText2)
-        button.setOnClickListener {
-            val username: String = editText.text.toString()
-            val password: String = editText2.text.toString()
+        val buttonClarifai: Button = findViewById(R.id.button_arac)
+        val buttonNutritional: Button = findViewById(R.id.button_konut)
+        val buttonSangli: Button = findViewById(R.id.button_saglik)
+        val buttonHendrikus: Button = findViewById(R.id.button_muhendislik)
+        val buttonTumRunlevel: Button = findViewById(R.id.button_tum_urunler)
 
-            if (username == "beyza" && password == "123") {
-                val intent = Intent(this@MainActivity, SecondActivity::class.java)
-                startActivity(intent)
-            } else {
-                Toast.makeText(
-                    this@MainActivity,
-                    "Kullanıcı adı veya şifre yanlış",
-                    Toast.LENGTH_SHORT
-                ).show()
-            }
+        buttonClarifai.setOnClickListener {
+            val intent = Intent(this@MainActivity, AracActivity::class.java)
+            startActivity(intent)
+        }
+
+        buttonNutritional.setOnClickListener {
+            val intent = Intent(this@MainActivity, KonutActivity::class.java)
+            startActivity(intent)
+        }
+
+        buttonSangli.setOnClickListener {
+            val intent = Intent(this@MainActivity, SaglikActivity::class.java)
+            startActivity(intent)
+        }
+
+        buttonHendrikus.setOnClickListener {
+            val intent = Intent(this@MainActivity, MuhendislikActivity::class.java)
+            startActivity(intent)
+        }
+
+        buttonTumRunlevel.setOnClickListener {
+            val intent = Intent(this@MainActivity, TumUrunlerActivity::class.java)
+            startActivity(intent)
         }
     }
 }

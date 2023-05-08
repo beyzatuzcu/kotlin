@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView_sorular"
+        android:layout_width="match_parent"
+        android:layout_height="107dp"
+        android:gravity="center_horizontal"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:text="Mühendislik"
+        android:textColor="#082339"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_soru1"
+        android:layout_width="377dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView_sorular"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="#51ADD6"
+        android:text="İnşaat All Risk Katılım"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button_soru2"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_soru1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="#51ADD6"
+        android:text="Leasing All Risk Katılım"
+        android:textColor="#FFFFFF" />
+
+
+</RelativeLayout>

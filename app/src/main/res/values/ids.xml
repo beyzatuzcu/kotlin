@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="button_arac" type="id" />
+    <item name="button_konut" type="id" />
+    <item name="button_saglik" type="id" />
+    <item name="button_muhendislik" type="id" />
+    <item name="button_tum_urunler" type="id">buttonTumUrunler</item>
+    <item name="textView_sorular" type="id" />
+    <item name="button_soru1" type="id" />
+    <item name="button_soru2" type="id" />
+    <item name="button_soru3" type="id" />
+    <item name="button_soru4" type="id" />
+    <item name="button_esya_guvende" type="id" />
+</resources>

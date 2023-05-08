@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textView_saglik"
+        android:layout_width="378dp"
+        android:layout_height="90dp"
+        android:text="Sağlık Sigortaları"
+        android:textAlignment="center"
+        android:textColor="#072943"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_hayat_sigortasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#51ADD6"
+        android:text="Finansmana Bağlı Hayat Sigortası"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button_ferdi_kaza_sigortasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#51ADD6"
+        android:text="Finansman Ferdi Kaza Sigortası"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button_tehlikeli_hastaliklar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#51ADD6"
+        android:text="Tehlikeli Hastalıklar Sigortası"
+        android:textColor="#F8F8F8" />
+
+    <Button
+        android:id="@+id/button_ailem_guvende"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#51ADD6"
+        android:text="Ailem Güvende Katılım"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

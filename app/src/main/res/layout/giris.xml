@@ -10,7 +10,7 @@
         android:id="@+id/linearLayout"
         android:layout_width="332dp"
         android:layout_height="114dp"
-        android:background="#C1E6EC"
+        android:background="#FFFFFF"
         android:orientation="vertical"
         android:paddingLeft="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -56,13 +56,15 @@
         android:id="@+id/button2"
         android:layout_width="110dp"
         android:layout_height="116dp"
-        android:background="#C6F1F6"
+        android:layout_marginEnd="12dp"
+        android:background="#FFFFFF"
         android:text="Giriş Yap"
         android:textAllCaps="false"
         android:textColor="#00569A"
         app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/linearLayout" />
+        app:layout_constraintTop_toTopOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView5"
@@ -80,8 +82,8 @@
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="10dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
         android:background="#00FFFFFF"
         android:backgroundTint="#00FFFFFF"
         android:text="Şifremi Unuttum"

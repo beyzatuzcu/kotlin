@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="377dp"
+        android:layout_height="88dp"
+        android:text="Sıkça Sorulan Sorular"
+        android:textAlignment="center"
+        android:textColor="#092A45"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_soru1"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:background="#51ADD6"
+        android:text="Güvence Kapsamı Nedir?"
+        android:layout_marginTop="16dp"
+
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button_soru2"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:background="#51ADD6"
+        android:text="Genel Şartlar Nelerdir?"
+        android:layout_marginTop="16dp"
+
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button_soru3"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:background="#51ADD6"
+        android:text="Poliçemin süresi ne kadar?"
+        android:layout_marginTop="16dp"
+
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button_soru4"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:background="#51ADD6"
+        android:text="Poliçemle İlgili Detaylı Bilgiyi Nereden Alabilirim?"
+        android:layout_marginTop="16dp"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
