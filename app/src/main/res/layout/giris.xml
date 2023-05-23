@@ -8,8 +8,8 @@
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="332dp"
-        android:layout_height="114dp"
+        android:layout_width="278dp"
+        android:layout_height="89dp"
         android:background="#FFFFFF"
         android:orientation="vertical"
         android:paddingLeft="10dp"
@@ -20,7 +20,7 @@
 
         <EditText
             android:id="@+id/editTextText"
-            android:layout_width="match_parent"
+            android:layout_width="267dp"
             android:layout_height="34dp"
             android:layout_weight="1"
             android:background="@android:color/transparent"
@@ -40,12 +40,11 @@
 
         <EditText
             android:id="@+id/editTextText2"
-            android:layout_width="match_parent"
+            android:layout_width="267dp"
             android:layout_height="34dp"
             android:layout_weight="1"
             android:background="@android:color/transparent"
             android:ems="10"
-            android:hint="Şifre"
             android:inputType="text"
             android:text="Şifre"
 
@@ -54,9 +53,9 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="110dp"
-        android:layout_height="116dp"
-        android:layout_marginEnd="12dp"
+        android:layout_width="80dp"
+        android:layout_height="75dp"
+        android:layout_marginEnd="4dp"
         android:background="#FFFFFF"
         android:text="Giriş Yap"
         android:textAllCaps="false"
@@ -70,12 +69,13 @@
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="100dp"
+        android:layout_marginBottom="72dp"
         android:text="Hoşgeldiniz"
         android:textColor="#FFFFFF"
         android:textSize="34sp"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.499"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
